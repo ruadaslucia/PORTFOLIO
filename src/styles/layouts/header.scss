@@ -1,0 +1,37 @@
+$snorlax: #114e4e;
+$orange: #e17334;
+$white-one: #ffffff;
+$metal: #54585a;
+
+.header{
+    background-color: $metal;
+    height: 200px;
+    color:$white-one;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;     
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-transform: uppercase;
+
+}
+.headerTitle{
+    text-transform: uppercase;
+    margin-left:30px,
+}
+.headerList{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    list-style: none;
+    align-items: center;
+    margin-right: 25px;
+}
+.listItem{
+    margin:10px;
+    text-decoration: none;
+}
+.listItem a{
+    text-decoration: none;
+    color:$white-one;
+}

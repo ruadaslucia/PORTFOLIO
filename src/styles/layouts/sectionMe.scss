@@ -3,6 +3,7 @@ $grey: #a0a0a0;
 $orange: #e17334;
 $white:#ffffff;
 
+$easySnorlax:#196666;
 
 .sectionMe{
   width: 100vw;
@@ -12,18 +13,55 @@ $white:#ffffff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sectionMeTP{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 .luciasPhoto{
-  width: 200px;
-  border: solid white 5px;
+  width: 150px;
+  border: solid $easySnorlax 5px;
   border-radius: 35%;
+  margin-bottom: 10px;
+  margin: 25px;
+}
+.sectionMeTitle{
+  color:$white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.sectionMeText{
+  color:$white;
+  font-size: 15px;
+  margin:25px;
+  text-align: center;
+
 }
 
 @media all and (min-width: 768px) {
+  .sectionMe{
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+  .sectionMeTP{
+    margin-left: 50px;
+  }
   .luciasPhoto{
     width: 250px;
-    border: solid $grey 5px;
     border-radius: 35%;
   }
+  .sectionMeText{
+    width: 500px;
+  }
 }
-@media all and (min-width: 1200px) {}
+@media all and (min-width: 1200px) {
+  .sectionMe{
+    justify-content: space-around;
+  }
+  
+}

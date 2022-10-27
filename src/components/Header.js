@@ -5,11 +5,11 @@ function Header() {
       <div className="header">
       <h1 className='headerTitle'>portfolio ruadaslucia</h1>
       <ul className='headerList'>
-        <li className='listItem'><a href="">me</a>
+        <li className='listItem'><a href="www.marca.es">me</a>
         </li>
-        <li className='listItem'><a href="">Skills</a></li>
-        <li className='listItem'><a href="">projects</a></li>
-        <li className='listItem'><a href="">rrss</a></li>
+        <li className='listItem'><a href="www.youtube.es">Skills</a></li>
+        <li className='listItem'><a href="www.github.es">projects</a></li>
+        <li className='listItem'><a href="www.twitter.es">rrss</a></li>
       </ul>
       </div>
     );

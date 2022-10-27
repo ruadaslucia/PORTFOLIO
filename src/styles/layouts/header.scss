@@ -5,7 +5,7 @@ $white-one:#ffffff;
 .header{
     background-color: $snorlax;
     width: 100vw;
-    height: 200px;
+    height: 20vh;
     color:$white-one;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,8 @@ $white-one:#ffffff;
     display: flex;
     flex-direction: column;
     justify-content:center; 
+    font-size: 25px;
+    margin-top: 10px;
 }
 .headerList{
     height: 50%;

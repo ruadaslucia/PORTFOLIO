@@ -1,14 +1,32 @@
 $white-one: #ffffff;
 $metal: #54585a;
+$snorlax: #114e4e;
 
 .footer{
-    height: 40%;
-    width: 100%;
+    background-color: $snorlax;
+    height: 20vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    color: $white-one;
+    text-transform: uppercase;
+    
 }
-.titleFooter{
-    color: $metal;
+.footerTitle{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+.footerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+.footerListItem{
+    font-size: 10px;
+    margin-right: 10px;
+    
 }

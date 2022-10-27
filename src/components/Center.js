@@ -1,14 +1,14 @@
 import "../styles/layouts/center.scss";
 
 import SectionMe from './SectionMe';
-import MainSection2 from './MainSection2';
+import SectionSkills from './SectionSkills';
 function Center() {
     return (
       <main className="center">
         <div className="sections">
           <div className='titleCenter'>center</div>
           <SectionMe/>
-          <MainSection2/>
+          <SectionSkills/>
         </div>
       </main>
     );

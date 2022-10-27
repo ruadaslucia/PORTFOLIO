@@ -1,13 +1,13 @@
 import "../styles/layouts/center.scss";
 
-import MainSection1 from './MainSection1';
+import SectionMe from './SectionMe';
 import MainSection2 from './MainSection2';
 function Center() {
     return (
       <main className="center">
         <div className="sections">
-          <div className='titleCenter'>main</div>
-          <MainSection1/>
+          <div className='titleCenter'>center</div>
+          <SectionMe/>
           <MainSection2/>
         </div>
       </main>

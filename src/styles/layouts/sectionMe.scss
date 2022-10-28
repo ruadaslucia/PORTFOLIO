@@ -1,14 +1,16 @@
 
 $grey: #a0a0a0;
 $orange: #e17334;
+$softOrange:#f39762;
 $white:#ffffff;
 
 $easySnorlax:#196666;
 
 .sectionMe{
   width: 100vw;
-  height: 100%;
-  background-color: $orange;
+  height: 40vh;
+  margin-top: 20vh;
+  background-color: $white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,21 +25,19 @@ $easySnorlax:#196666;
 
 }
 .luciasPhoto{
-  width: 150px;
+  width: 100px;
   border: solid $easySnorlax 5px;
   border-radius: 35%;
-  margin-bottom: 10px;
-  margin: 25px;
+  margin-top: 10px;
 }
 .sectionMeTitle{
-  color:$white;
+  color:$softOrange;
   font-size: 20px;
-  margin-bottom: 5px;
 }
 .sectionMeText{
-  color:$white;
+  color:$softOrange;
   font-size: 15px;
-  margin:25px;
+  margin:10px;
   text-align: center;
 
 }
@@ -48,6 +48,10 @@ $easySnorlax:#196666;
     justify-content: flex-start;
     
   }
+  .sectionMeTitle{
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
   .sectionMeTP{
     margin-left: 50px;
   }
@@ -57,6 +61,8 @@ $easySnorlax:#196666;
   }
   .sectionMeText{
     width: 500px;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 @media all and (min-width: 1200px) {
@@ -64,14 +70,9 @@ $easySnorlax:#196666;
     justify-content: space-around;
   }
   .sectionMeTitle{
-    font-size: 25px;
+    font-size: 35px;
   }
   .sectionMeText{
     font-size: 25px;
-  
   }
-  .sectionMeTextH4{
-    margin-bottom: 20px;
-  }
-  
 }

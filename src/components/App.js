@@ -5,7 +5,6 @@ import SectionMe from './SectionMe';
 import SectionSkills from './SectionSkills';
 import SectionProjects from "./SectionProjects";
 import SectionRrss from "./SectionRrss";
-import Footer from "./Footer";
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/rrss"element={<SectionRrss/>}/>
         </Route>
     </Routes>  
-      <Footer/> 
     </>
   );
 }

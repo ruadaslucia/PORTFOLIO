@@ -6,9 +6,6 @@ $easySnorlax:#196666;
 $grey: #d8d8d8;
 
 .header{
-    position: fixed;
-    top: 0px;
-    //background-color: $snorlax;
     background: linear-gradient(to right, $orange,$snorlax);
     width: 100vw;
     height: 20vh;
@@ -30,40 +27,3 @@ $grey: #d8d8d8;
     font-size: 25px;
     margin-top: 10px;
 }
-.headerList{
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between; 
-    list-style: none;
-    align-items: center;
-    font-size: 14px;    
-    padding-inline-start: 0px;
-}
-.listItem{
-    margin:10px;
-    text-decoration: none;
-    
-}
-.listItemButton{
-    border: 0px;
-    background-color: transparent;
-    color: $grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-@media all and (min-width: 768px) {
-    .headerList{
-        font-size: 20px;    
-    }
-   
-  }
-  @media all and (min-width: 1200px) {
-    .headerList{
-        font-size: 20px; 
-         
-    }
-   
-  }

@@ -1,6 +1,6 @@
 import "../styles/layouts/center.scss";
-// import SectionMe from './SectionMe';
-import SectionSkills from './SectionSkills';
+import SectionMe from './SectionMe';
+// import SectionSkills from './SectionSkills';
 
 
 function Center() {
@@ -8,8 +8,8 @@ function Center() {
       <main className="center">
         <div className="sections">
           
-          {/* <SectionMe/> */}
-          <SectionSkills/>
+          <SectionMe/>
+          {/* <SectionSkills/> */}
 
         </div>
       </main>

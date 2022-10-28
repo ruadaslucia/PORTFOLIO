@@ -3,8 +3,10 @@ $metal: #54585a;
 $snorlax: #114e4e;
 
 .footer{
+    position: fixed;
+    bottom: 0px;
     background-color: $snorlax;
-    height: 20vh;
+    height: 40px;
     width: 100vw;
     display: flex;
     flex-direction: row;

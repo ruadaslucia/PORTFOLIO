@@ -7,7 +7,7 @@ $easySnorlax:#196666;
 
 .sectionMe{
   width: 100vw;
-  height: 60vh;
+  height: 100%;
   background-color: $orange;
   display: flex;
   flex-direction: column;
@@ -62,6 +62,16 @@ $easySnorlax:#196666;
 @media all and (min-width: 1200px) {
   .sectionMe{
     justify-content: space-around;
+  }
+  .sectionMeTitle{
+    font-size: 25px;
+  }
+  .sectionMeText{
+    font-size: 25px;
+  
+  }
+  .sectionMeTextH4{
+    margin-bottom: 20px;
   }
   
 }

@@ -1,9 +1,15 @@
 $snorlax: #114e4e;
 $orange: #e17334;
+$softOrange:#f39762;
 $white-one:#ffffff;
+$easySnorlax:#196666;
+$grey: #d8d8d8;
 
 .header{
-    background-color: $snorlax;
+    position: fixed;
+    top: 0px;
+    //background-color: $snorlax;
+    background: linear-gradient(to right, $orange,$snorlax);
     width: 100vw;
     height: 20vh;
     color:$white-one;
@@ -39,26 +45,25 @@ $white-one:#ffffff;
     text-decoration: none;
     
 }
-.listItem a{
-    text-decoration: none;
-    color:$orange;
-    font-weight: 600;
+.listItemButton{
+    border: 0px;
+    background-color: transparent;
+    color: $grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 @media all and (min-width: 768px) {
     .headerList{
         font-size: 20px;    
     }
-    .listItem a{
-        margin-left:25px; 
-   }
+   
   }
   @media all and (min-width: 1200px) {
     .headerList{
         font-size: 20px; 
          
     }
-    .listItem a{
-         margin-left:50px; 
-    }
+   
   }

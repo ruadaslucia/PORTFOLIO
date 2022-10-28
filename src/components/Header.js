@@ -1,15 +1,38 @@
 import "../styles/layouts/header.scss";
 
 function Header() {
+  function handleButton(){
+    console.log("este es el boton del header")
+  }
+
     return (
       <div className="header">
       <h1 className='headerTitle'>portfolio ruadaslucia</h1>
       <ul className='headerList'>
-        <li className='listItem'><a href="https://www.marca.com">me</a>
+        <li className='listItem'>          
+          <button className="listItemButton"onClick={handleButton}>
+            me
+          </button>
         </li>
-        <li className='listItem'><a href="https://youtube.es">Skills</a></li>
-        <li className='listItem'><a href="https://www.github.es">projects</a></li>
-        <li className='listItem'><a href="https://www.twitter.es">rrss</a></li>
+
+        <li className='listItem'>          
+          <button className="listItemButton"onClick={handleButton}>
+            skills
+          </button>
+        </li>
+
+        <li className='listItem'>          
+          <button className="listItemButton"onClick={handleButton}>
+            projects
+          </button>
+        </li>
+
+        <li className='listItem'>          
+          <button className="listItemButton"onClick={handleButton}>
+            rrss
+          </button>
+        </li>
+
       </ul>
       </div>
     );

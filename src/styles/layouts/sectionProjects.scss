@@ -119,6 +119,9 @@ $white:#ffffff;
 }
 
 @media all and (min-width: 1200px) {
+    .titleSectionProjects{
+        margin-bottom:40px;
+    }
     .sectionProjectsList{
         display: flex;
         flex-direction: row;

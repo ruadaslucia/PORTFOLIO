@@ -1,0 +1,65 @@
+$white-one: #ffffff;
+$metal: #54585a;
+$snorlax: #114e4e;
+$easySnorlax:#196666;
+$grey: #a0a0a0;
+$orange: #e17334;
+$softOrange:#f39762;
+$white:#ffffff;
+
+.sectionRrss{
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionRrssTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    color:$grey;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.sectionRrssText{
+    color: #196666;
+    text-align:center;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.sectionRrssList{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.sectionRrssItem{
+    font-weight: bold;
+    margin: 20px;
+}
+.sectionRrssItem a{
+    text-decoration: none;
+    color: $grey;
+}
+
+.sectionRrssEmail{
+    color:$orange;
+}
+@media all and (min-width: 768px) {
+    .sectionRrssTitle{
+        font-size: 30px;
+    }
+    .sectionRrssText{
+        font-size: 20px;
+    }
+    .sectionRrssItem{
+        font-size: 25px;
+    }
+
+}

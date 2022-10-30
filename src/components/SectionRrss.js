@@ -9,7 +9,6 @@ function SectionRrss() {
           <li className='sectionRrssItem'><a href="https://www.linkedin.com/in/ruadaslucia/">Linkedin</a></li>
           <li className='sectionRrssItem'><a href="https://twitter.com/ruadasLucia">Twitter</a></li>
         </ul>
-        {/* <a href="mailto: ruadaslucia@gmail.com">My email</a> */}
       </div>
     );
   }

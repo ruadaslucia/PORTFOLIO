@@ -24,6 +24,7 @@ $white:#ffffff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
+    color:$grey;
 }
 
 .sectionSkillsText{
@@ -35,8 +36,8 @@ $white:#ffffff;
 
 @media all and (min-width: 768px) {
     .sectionSkillsTitle{
-        margin-bottom: 50px;
-        font-size: 40px;
+        margin-bottom: 30px;
+        font-size: 30px;
     }
     .sectionSkillsText{
         font-size: 24px;

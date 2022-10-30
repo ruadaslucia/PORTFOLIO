@@ -15,6 +15,8 @@ $white:#ffffff;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
 
 .sectionRrssTitle{
@@ -52,14 +54,24 @@ $white:#ffffff;
     color:$orange;
 }
 @media all and (min-width: 768px) {
+    .sectionRrss{
+        margin-top: 100px;
+    }
+
     .sectionRrssTitle{
         font-size: 30px;
     }
     .sectionRrssText{
         font-size: 20px;
+        width: 500px;
     }
     .sectionRrssItem{
         font-size: 25px;
     }
-
+  
+}  
+@media all and (min-width: 1200px) {
+    .sectionRrssText{
+        width: 600px;
+    }
 }

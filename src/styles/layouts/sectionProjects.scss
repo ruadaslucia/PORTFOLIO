@@ -17,8 +17,6 @@ $white:#ffffff;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position:fixed;
-    top:28%;
 }
 
 .titleSectionProjects{
@@ -28,7 +26,7 @@ $white:#ffffff;
 
 .sectionProjectsList{
     padding-inline-start: 0px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .sectionProjectsItem{
@@ -80,15 +78,14 @@ $white:#ffffff;
 }
 
 @media all and (min-width: 768px) { 
-    //.projectsArticle{}
+    
     .titleSectionProjects{
         font-size: 30px;  
     }
     .sectionProjects{
         width: 100vw;
-        margin-top: 0px;
-        position: fixed;
-        top:28%
+        margin-top: 100px;
+        
     }
 
     .sectionProjectsTitle{       

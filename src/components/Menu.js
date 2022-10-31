@@ -1,4 +1,4 @@
-import "../styles/layouts/menu.scss";
+
 
 
 function Menu() {

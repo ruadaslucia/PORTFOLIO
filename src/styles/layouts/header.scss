@@ -1,19 +1,12 @@
-$snorlax: #114e4e;
-$orange: #e17334;
-$softOrange:#f39762;
-$white-one:#ffffff;
-$easySnorlax:#196666;
-$grey: #d8d8d8;
-
 .header{
     background: linear-gradient(to right, $orange,$snorlax);
     width: 100vw;
     height: 20vh;
-    color:$white-one;
+    color:$white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-family:$roboto; 
     text-transform: uppercase;
 
 }

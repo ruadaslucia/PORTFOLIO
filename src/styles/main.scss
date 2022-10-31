@@ -1,7 +1,10 @@
 @import "core/reset";
-@import "core/variables";
+@import "core/variables.scss";
+@import "app.scss";
 @import "layouts/center";
-@import "layouts/sectionMe";
-@import "layouts/sectionSkills";
+@import "components/sectionMe.scss";
+@import "components/sectionSkills.scss";
+@import "components/sectionProjects.scss";
+@import "components/sectionRrss.scss";
 @import "layouts/header";
 @import "layouts/footer";

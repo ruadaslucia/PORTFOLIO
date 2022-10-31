@@ -1,4 +1,4 @@
-import'../styles/app.scss';
+import'../styles/main.scss';
 import Header from "./Header";
 import Center from "./Center";
 import SectionMe from './SectionMe';

@@ -1,11 +1,3 @@
-$metal: #54585a;
-$snorlax: #114e4e;
-$easySnorlax:#196666;
-$grey: #a0a0a0;
-$orange: #e17334;
-$softOrange:#f39762;
-$white:#ffffff;
-
 .footer{
     width: 100%;
     height: 40px;
@@ -13,7 +5,7 @@ $white:#ffffff;
     bottom:0px;
     background: linear-gradient(to right, $orange,$snorlax);
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:$roboto;
     color:$white;
     font-weight: bold;
     display:flex;

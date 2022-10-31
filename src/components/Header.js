@@ -1,4 +1,4 @@
-import "../styles/layouts/header.scss";
+
 // import Menu from "./Menu";
 
 function Header() {  

@@ -1,4 +1,3 @@
-import "../styles/layouts/sectionMe.scss";
 import luciasPhoto from"../images/portfolioPhoto.jpg";
 
 function SectionMe() {

@@ -1,16 +1,7 @@
-$white-one: #ffffff;
-$metal: #54585a;
-$snorlax: #114e4e;
-$easySnorlax:#196666;
-$grey: #a0a0a0;
-$orange: #e17334;
-$softOrange:#f39762;
-$white:#ffffff;
-
 .sectionProjects{
     width: 100vw;
     height: 60vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:$roboto;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -46,7 +37,7 @@ $white:#ffffff;
     width: 50px;
     margin-right: 15px;
     margin-left: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $roboto;
     font-size: 10px;
     font-weight: bold;
     color:$orange;

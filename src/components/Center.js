@@ -1,4 +1,4 @@
-import "../styles/layouts/center.scss";
+
 // import SectionMe from './SectionMe';
 // import SectionSkills from './SectionSkills';
 // import SectionProjects from "./SectionProjects";

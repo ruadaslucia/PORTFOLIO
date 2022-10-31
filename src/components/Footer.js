@@ -1,5 +1,3 @@
-import "../styles/layouts/footer.scss";
-
 
 function Center() {
     return (

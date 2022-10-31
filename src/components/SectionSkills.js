@@ -1,4 +1,4 @@
-import "../styles/layouts/sectionSkills.scss";
+
 function SectionSkills() {
     return (
       <div className="sectionSkills">

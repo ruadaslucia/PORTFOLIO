@@ -1,4 +1,3 @@
-import "../styles/layouts/sectionProjects.scss";
 import awesome from"../images/awesome-profile-cards.jpg";
 import friends from "../images/friends-quotes.jpg";
 import cocktails from "../images/big-apple-cocktails.jpg";

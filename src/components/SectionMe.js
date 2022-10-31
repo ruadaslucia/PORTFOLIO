@@ -5,7 +5,7 @@ function SectionMe() {
       <>
       
       <div className='sectionMe'>
-        <div className='sectionMeTP'>
+        <div className='sectionMe__TP'>
           <h2 className='sectionMeTitle'>Hi, I'm Lucía</h2>
           <img src={luciasPhoto} alt="lucia" className='luciasPhoto'/>
         </div>

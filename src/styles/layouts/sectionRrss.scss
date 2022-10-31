@@ -37,13 +37,20 @@ $white:#ffffff;
 }
 
 .sectionRrssList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     list-style: none;
     padding-inline-start: 0px;
+
 }
 
 .sectionRrssItem{
     font-weight: bold;
     margin: 20px;
+    font-size: 25px;
 }
 .sectionRrssItem a{
     text-decoration: none;
@@ -66,12 +73,15 @@ $white:#ffffff;
         width: 500px;
     }
     .sectionRrssItem{
-        font-size: 25px;
+        font-size: 30px;
     }
   
 }  
 @media all and (min-width: 1200px) {
     .sectionRrssText{
         width: 600px;
+    }
+    .sectionRrssItem{
+        font-size: 35px;
     }
 }

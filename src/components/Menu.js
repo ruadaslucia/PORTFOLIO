@@ -1,33 +1,42 @@
+import { Link } from 'react-router-dom';
 
 function Menu() {
-  function handleButton(){
-    console.log("este es el boton del header")
-  }
+  
 
     return (
      <div className='menu'>
       <ul className="menuList">
         <li className='menuList__listItem'>          
-          <button className="menuList__listItem--listButton"onClick={handleButton}>
+          <button className="menuList__listItem--listButton">             
+            <Link className="menuList__listItem--link" to="/">
             me
+            </Link>
+          </button>
+          
+        </li>
+
+        <li className='menuList__listItem'>          
+          <button className="menuList__listItem--listButton">
+          <Link className="menuList__listItem--link" to="/skills">
+              skills
+            </Link>
           </button>
         </li>
 
         <li className='menuList__listItem'>          
-          <button className="menuList__listItem--listButton"onClick={handleButton}>
-            skills
+          <button className="menuList__listItem--listButton">
+          <Link className="menuList__listItem--link" to="/projects">
+          projects
+            </Link>
+            
           </button>
         </li>
 
         <li className='menuList__listItem'>          
-          <button className="menuList__listItem--listButton"onClick={handleButton}>
-            projects
-          </button>
-        </li>
-
-        <li className='menuList__listItem'>          
-          <button className="menuList__listItem--listButton"onClick={handleButton}>
-            rrss
+          <button className="menuList__listItem--listButton">
+          <Link className="menuList__listItem--link" to="/rrss">
+          rrss
+            </Link>
           </button>
         </li>
 

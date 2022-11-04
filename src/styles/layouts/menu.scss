@@ -11,14 +11,24 @@
         &--listButton{
             border: 0px;
             background-color: transparent;
-            color: $grey;
+            
             font-family:$roboto;
             font-size: 15px;
             text-transform: uppercase;
+        }
+        &--link{
+            text-decoration: none;
+            color: $grey;
+            
+        }
+        &--link:hover{
+        color:$white;
+        }        
     }
+    
 }
 
-}
+
 @media all and (min-width: 768px) {
     .menuList{
         font-size: 20px;  

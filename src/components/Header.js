@@ -1,12 +1,12 @@
 
-// import Menu from "./Menu";
+import Menu from "./Menu";
 
 function Header() {  
 
     return (
       <div className="header">
-      <h1 className='headerTitle'>portfolio ruadaslucia</h1>
-      {/* <Menu/> */}
+      <h1 className='header__title'>portfolio ruadaslucia</h1>
+      <Menu/>
       </div>
 
       

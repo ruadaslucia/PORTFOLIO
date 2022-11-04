@@ -1,6 +1,4 @@
 
-
-
 function Menu() {
   function handleButton(){
     console.log("este es el boton del header")
@@ -9,26 +7,26 @@ function Menu() {
     return (
      <div className='menu'>
       <ul className="menuList">
-        <li className='listItem'>          
-          <button className="listItemButton"onClick={handleButton}>
+        <li className='menuList__listItem'>          
+          <button className="menuList__listItem--listButton"onClick={handleButton}>
             me
           </button>
         </li>
 
-        <li className='listItem'>          
-          <button className="listItemButton"onClick={handleButton}>
+        <li className='menuList__listItem'>          
+          <button className="menuList__listItem--listButton"onClick={handleButton}>
             skills
           </button>
         </li>
 
-        <li className='listItem'>          
-          <button className="listItemButton"onClick={handleButton}>
+        <li className='menuList__listItem'>          
+          <button className="menuList__listItem--listButton"onClick={handleButton}>
             projects
           </button>
         </li>
 
-        <li className='listItem'>          
-          <button className="listItemButton"onClick={handleButton}>
+        <li className='menuList__listItem'>          
+          <button className="menuList__listItem--listButton"onClick={handleButton}>
             rrss
           </button>
         </li>

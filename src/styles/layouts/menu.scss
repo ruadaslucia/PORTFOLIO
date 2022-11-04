@@ -5,42 +5,39 @@
     justify-content:space-between; 
     list-style: none;
     padding-inline-start: 0px;
-}
-.listItem{
-    margin:10px;
-    text-decoration: none;
-    
-}
-.listItemButton{
-    border: 0px;
-    background-color: transparent;
-    color: $grey;
-    font-family:$roboto;
-    font-size: 15px;
-    text-transform: uppercase;
+    &__listItem{
+        margin:10px;
+        text-decoration: none;        
+        &--listButton{
+            border: 0px;
+            background-color: transparent;
+            color: $grey;
+            font-family:$roboto;
+            font-size: 15px;
+            text-transform: uppercase;
+    }
 }
 
+}
 @media all and (min-width: 768px) {
-    .headerList{
-        font-size: 20px;    
-    }
-    .listItemButton{
+    .menuList{
+        font-size: 20px;  
+        &__listItem{
+            margin:20px; 
+            &--listButton{
+                font-size: 20px;
+            }        
+        }  
+    }  
+}
+@media all and (min-width: 1200px) {
+    .menuList{
         font-size: 20px;
+        &__listItem{
+            margin:20px;
+            &--listButton{
+                font-size: 25px;
+            }        
+        } 
     }
-    .listItem{
-        margin:20px;        
-    }
-   
-  }
-  @media all and (min-width: 1200px) {
-    .headerList{
-        font-size: 20px; 
-    }
-    .listItemButton{
-        font-size: 25px;
-    }
-    .listItem{
-        margin:20px;        
-    }
-   
-  }
+}

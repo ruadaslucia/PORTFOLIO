@@ -8,66 +8,68 @@
   justify-content: center;
   align-items: center;
   font-family: $roboto;
-}
-.sectionMeTP{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-.luciasPhoto{
-  width: 100px;
-  border: solid $easySnorlax 5px;
-  border-radius: 35%;
-  margin-top: 10px;
-}
-.sectionMeTitle{
-  color:$softOrange;
-  font-size: 20px;
-}
-.sectionMeText{
-  width: 300px;
-  color:$softOrange;
-  font-size: 15px;
-  margin:10px;
-  text-align: center;
-
+  &__tp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--title{
+      color:$softOrange;
+      font-size: 20px;
+    }    
+    &--luciasPhoto{
+      width: 100px;
+      border: solid $easySnorlax 5px;
+      border-radius: 35%;
+      margin-top: 10px;
+    }
+  }
+  &__text{
+    width: 300px;
+    color:$softOrange;
+    font-size: 15px;
+    margin:10px;
+    text-align: center;
+    }
 }
 
 @media all and (min-width: 768px) {
   .sectionMe{
     flex-direction: row;
-    justify-content: flex-start;
-    
-  }
-  .sectionMeTitle{
-    font-size: 30px;
-    margin-bottom: 60px;
-  }
-  .sectionMeTP{
-    margin-left: 50px;
-  }
-  .luciasPhoto{
-    width: 250px;
-    border-radius: 35%;
-  }
-  .sectionMeText{
-    margin-top:100px;
-    width: 400px;
-    font-size: 20px;
-    font-weight: bold;
-  }
+    justify-content: center;
+    &__tp{
+      margin-left: 50px;
+      &--title{
+        font-size: 30px;
+        margin-bottom: 60px;
+      }
+      &--luciasPhoto{
+        width: 250px;
+        border-radius: 35%;
+      }
+    }
+    &__text{
+      margin-left: 100px;
+      margin-top:100px;
+      width: 400px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }  
 }
 @media all and (min-width: 1200px) {
   .sectionMe{
     justify-content: space-around;
+    &__tp{
+      &--title{
+        font-size: 35px;
+      }
+    }
+    &__text{
+      width: 600px;
+      font-size: 25px;
+    }
   }
-  .sectionMeTitle{
-    font-size: 35px;
-  }
-  .sectionMeText{
-    width: 600px;
-    font-size: 25px;
-  }
+  
+  
 }

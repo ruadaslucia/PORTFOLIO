@@ -8,71 +8,76 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 150px;
+    &__title{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bolder;
+        color:$grey;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    &__text{
+        color: #196666;
+        text-align:center;
+        width: 300px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        &--email{
+            color:$orange;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        list-style: none;
+        padding-inline-start: 0px;
+        &--item{
+            font-weight: bold;
+            margin: 20px;
+            font-size: 25px;
+        }
+        &--item a{
+            text-decoration: none;
+            color: $grey;
+        }
+    }
 }
 
-.sectionRrssTitle{
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bolder;
-    color:$grey;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
 
-.sectionRrssText{
-    color: #196666;
-    text-align:center;
-    width: 300px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
 
-.sectionRrssList{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    list-style: none;
-    padding-inline-start: 0px;
-
-}
-
-.sectionRrssItem{
-    font-weight: bold;
-    margin: 20px;
-    font-size: 25px;
-}
-.sectionRrssItem a{
-    text-decoration: none;
-    color: $grey;
-}
-
-.sectionRrssEmail{
-    color:$orange;
-}
 @media all and (min-width: 768px) {
     .sectionRrss{
         margin-top: 100px;
+        &__title{
+            font-size: 30px;
+        }
+        &__text{
+            font-size: 20px;
+            width: 500px;
+        }
+        &__list{
+            &--item{
+            font-size: 30px;
+            }
+        }
     }
 
-    .sectionRrssTitle{
-        font-size: 30px;
-    }
-    .sectionRrssText{
-        font-size: 20px;
-        width: 500px;
-    }
-    .sectionRrssItem{
-        font-size: 30px;
-    }
-  
+    
+    
+    
 }  
 @media all and (min-width: 1200px) {
-    .sectionRrssText{
+    .sectionRrss{
+        &__text{
         width: 600px;
-    }
-    .sectionRrssItem{
-        font-size: 35px;
+        &__list{
+            &--item{
+            font-size: 35px;
+            }
+        }
+        }
     }
 }

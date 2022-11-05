@@ -6,43 +6,50 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 150px;
     &__title{
-        text-transform: uppercase;
-        font-size: 20px;
-        font-weight: bolder;
-        color:$grey;
-        margin-top: 20px;
+        margin-top: 50px;
         margin-bottom: 50px;
-    }
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 25px;
+        color:$grey;        
+    }  
     &__text{
-        color: #196666;
+        color: $easySnorlax;
         text-align:center;
         width: 300px;
         margin-left: 30px;
         margin-bottom: 30px;
+        font-size: 20px;  
         &--email{
             color:$orange;
+        }
+        &--email:hover{
+            color:$easySnorlax;
         }
     }
     &__list{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         list-style: none;
+        margin-top: 30px;
         padding-inline-start: 0px;
         &--item{
             font-weight: bold;
             margin: 20px;
-            font-size: 25px;
+            font-size: 70px;
         }
         &--item a{
             text-decoration: none;
-            color: $grey;
+            color: $orange;
         }
+        &--icon:hover{
+            color:$easySnorlax;
+        }
+       
     }
 }
 
@@ -50,17 +57,22 @@
 
 @media all and (min-width: 768px) {
     .sectionRrss{
-        margin-top: 100px;
         &__title{
-            font-size: 30px;
+            font-size: 30px;  
+            margin-top: 50px;
         }
         &__text{
             font-size: 20px;
             width: 500px;
         }
         &__list{
+            flex-direction: row;
+            //margin-top: 130px;
             &--item{
-            font-size: 30px;
+            font-size:80px;
+            }
+            &--icon{
+                margin:35px;
             }
         }
     }
@@ -74,8 +86,9 @@
         &__text{
         width: 600px;
         &__list{
-            &--item{
-            font-size: 35px;
+            &--icon{
+                margin:40px;
+                font-size: 100px;
             }
         }
         }

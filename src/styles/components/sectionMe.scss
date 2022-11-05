@@ -1,7 +1,5 @@
 .sectionMe{
   width: 100vw;
-  height: 40vh;
-  margin-top: 20vh;
   background-color: $white;
   display: flex;
   flex-direction: column;
@@ -15,21 +13,24 @@
     align-items: center;
     &--title{
       color:$softOrange;
-      font-size: 20px;
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }    
     &--luciasPhoto{
-      width: 100px;
+      width: 200px;
       border: solid $easySnorlax 5px;
       border-radius: 35%;
-      margin-top: 10px;
+      margin-bottom: 50px;
     }
   }
   &__text{
     width: 300px;
     color:$softOrange;
-    font-size: 15px;
-    margin:10px;
+    font-size: 20px;
+    margin-top:20px;
     text-align: center;
+    
     }
 }
 
@@ -41,7 +42,7 @@
       margin-left: 50px;
       &--title{
         font-size: 30px;
-        margin-bottom: 60px;
+        margin-bottom: 120px;
       }
       &--luciasPhoto{
         width: 250px;
@@ -68,6 +69,7 @@
     &__text{
       width: 600px;
       font-size: 25px;
+      margin-right: 50px;
     }
   }
   

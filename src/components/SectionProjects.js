@@ -33,10 +33,8 @@ function SectionProjects() {
               <img src={cocktails} alt="project3" className='item__article--photo'/>
               <p className='item__article--text'>Big apple cocktails , is a project that filters and adds to favorites drinks that are obtained with the data of an API.</p>
             </article>
-          </li>
-          
+          </li>          
         </ul>
-        <a href="https://github.com/ruadaslucia?tab=repositories" className='sectionProjects__more'>See more...</a>
       </div>
     );
   }

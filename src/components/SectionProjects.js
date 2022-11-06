@@ -1,6 +1,6 @@
-import awesome from"../images/awesome-profile-cards.jpg";
-import friends from "../images/friends-quotes.jpg";
-import cocktails from "../images/big-apple-cocktails.jpg";
+import awesome from'../images/awesome-profile-cards.jpg';
+import friends from '../images/friends-quotes.jpg';
+import cocktails from '../images/big-apple-cocktails.jpg';
 function SectionProjects() {
     return (
       <div className="sectionProjects">

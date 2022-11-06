@@ -1,4 +1,4 @@
-import luciasPhoto from"../../src/images/portfolioPhoto.jpg";
+import luciasPhoto from '../images/portfolioPhoto.jpg';
 
 function SectionMe() {
     return (

@@ -9,9 +9,9 @@ function SectionRrss() {
 
         <ul className='sectionRrss__list'>
 
-          <li className='sectionRrss__list--item'><a href="https://github.com/ruadaslucia"><i class="fa-brands fa-github sectionRrss__list--icon"></i></a></li>
-          <li className='sectionRrss__list--item'><a href="https://www.linkedin.com/in/ruadaslucia/"><i class="fa-brands fa-linkedin sectionRrss__list--icon"></i></a></li>
-          <li className='sectionRrss__list--item'><a href="https://twitter.com/ruadasLucia"><i class="fa-brands fa-twitter sectionRrss__list--icon"></i></a>
+          <li className='sectionRrss__list--item'><a href="https://github.com/ruadaslucia"><i className="fa-brands fa-github sectionRrss__list--icon"></i></a></li>
+          <li className='sectionRrss__list--item'><a href="https://www.linkedin.com/in/ruadaslucia/"><i className="fa-brands fa-linkedin sectionRrss__list--icon"></i></a></li>
+          <li className='sectionRrss__list--item'><a href="https://twitter.com/ruadasLucia"><i className="fa-brands fa-twitter sectionRrss__list--icon"></i></a>
           </li>
 
         </ul>

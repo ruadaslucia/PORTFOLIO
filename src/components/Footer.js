@@ -3,7 +3,7 @@ function Center() {
     return (
       <div className="footer">
           
-        portfolio ruadaslucia
+        ruadaslucia
 
         </div>
     );

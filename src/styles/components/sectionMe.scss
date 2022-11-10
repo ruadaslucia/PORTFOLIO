@@ -1,4 +1,4 @@
-.sectionMe{
+.sectionMe {
   width: 100vw;
   background-color: $white;
   display: flex;
@@ -6,72 +6,69 @@
   justify-content: center;
   align-items: center;
   font-family: $roboto;
-  &__tp{
+  &__tp {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    &--title{
-      color:$softOrange;
+    &--title {
+      color: $softOrange;
       font-size: 30px;
       margin-top: 50px;
       margin-bottom: 20px;
-    }    
-    &--luciasPhoto{
+    }
+    &--luciasPhoto {
       width: 200px;
       border: solid $easySnorlax 5px;
       border-radius: 35%;
       margin-bottom: 10px;
     }
   }
-  &__text{
+  &__text {
     width: 300px;
-    color:$softOrange;
+    color: $softOrange;
     font-size: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     text-align: center;
-    
-    }
+  }
 }
 
 @media all and (min-width: 768px) {
-  .sectionMe{
+  .sectionMe {
     flex-direction: row;
     justify-content: center;
-    &__tp{
+    &__tp {
       margin-left: 50px;
-      &--title{
+      &--title {
         font-size: 30px;
         margin-bottom: 120px;
       }
-      &--luciasPhoto{
+      &--luciasPhoto {
         width: 230px;
         border-radius: 35%;
       }
     }
-    &__text{
+    &__text {
       margin-left: 100px;
-      margin-top:150px;
+      margin-top: 150px;
       width: 400px;
       font-size: 20px;
       font-weight: bold;
     }
-  }  
+  }
 }
 @media all and (min-width: 1200px) {
-  .sectionMe{
+  .sectionMe {
     justify-content: space-around;
-    &__tp{
-      &--title{
+    &__tp {
+      &--title {
         font-size: 35px;
       }
     }
-    &__text{
+    &__text {
       width: 600px;
       font-size: 25px;
       margin-right: 50px;
     }
   }
-  
-  
 }

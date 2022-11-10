@@ -25,7 +25,7 @@
     }
   }
   &__text {
-    width: 300px;
+    width: 70vw;
     color: $softOrange;
     font-size: 20px;
     margin-top: 10px;
@@ -50,8 +50,9 @@
     }
     &__text {
       margin-left: 100px;
+      margin-right: 100px;
       margin-top: 150px;
-      width: 400px;
+      width: 70vw;
       font-size: 20px;
       font-weight: bold;
     }
@@ -66,7 +67,7 @@
       }
     }
     &__text {
-      width: 600px;
+      width: 70vw;
       font-size: 25px;
       margin-right: 50px;
     }

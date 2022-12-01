@@ -2,41 +2,33 @@ import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
-    <div className="menu">
+    <nav className="menu">
       <ul className="menuList">
         <li className="menuList__listItem">
-          <button className="menuList__listItem--listButton">
-            <Link className="menuList__listItem--link" to="/PORTFOLIO">
-              me
-            </Link>
-          </button>
+          <Link className="menuList__listItem--link" to="/portfolio">
+            me
+          </Link>
         </li>
 
         <li className="menuList__listItem">
-          <button className="menuList__listItem--listButton">
-            <Link className="menuList__listItem--link" to="/skills">
-              skills
-            </Link>
-          </button>
+          <Link className="menuList__listItem--link" to="/skills">
+            skills
+          </Link>
         </li>
 
         <li className="menuList__listItem">
-          <button className="menuList__listItem--listButton">
-            <Link className="menuList__listItem--link" to="/projects">
-              projects
-            </Link>
-          </button>
+          <Link className="menuList__listItem--link" to="/projects">
+            projects
+          </Link>
         </li>
 
         <li className="menuList__listItem">
-          <button className="menuList__listItem--listButton">
-            <Link className="menuList__listItem--link" to="/rrss">
-              rrss
-            </Link>
-          </button>
+          <Link className="menuList__listItem--link" to="/rrss">
+            rrss
+          </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 export default Menu;

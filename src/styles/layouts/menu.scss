@@ -1,53 +1,36 @@
+.menuList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-inline-start: 0px;
+  &__listItem {
+    margin: 10px;
+    text-decoration: none;
 
-.menuList{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between; 
-    list-style: none;
-    padding-inline-start: 0px;
-    &__listItem{
-        margin:10px;
-        text-decoration: none;        
-        &--listButton{
-            border: 0px;
-            background-color: transparent;
-            
-            font-family:$roboto;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-        &--link{
-            text-decoration: none;
-            color: $grey;
-            
-        }
-        &--link:hover{
-        color:$white;
-        }        
+    &--link {
+      text-decoration: none;
+      color: $grey;
     }
-    
+    &--link:hover {
+      color: $white;
+    }
+  }
 }
-
 
 @media all and (min-width: 768px) {
-    .menuList{
-        font-size: 20px;  
-        &__listItem{
-            margin:20px; 
-            &--listButton{
-                font-size: 20px;
-            }        
-        }  
-    }  
+  .menuList {
+    font-size: 20px;
+    &__listItem {
+      margin: 20px;
+    }
+  }
 }
 @media all and (min-width: 1200px) {
-    .menuList{
-        font-size: 20px;
-        &__listItem{
-            margin:20px;
-            &--listButton{
-                font-size: 25px;
-            }        
-        } 
+  .menuList {
+    font-size: 25px;
+    &__listItem {
+      margin: 20px;
     }
+  }
 }

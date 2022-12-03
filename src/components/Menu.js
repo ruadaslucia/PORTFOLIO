@@ -27,6 +27,11 @@ function Menu() {
             rrss
           </Link>
         </li>
+        <li className="menuList__listItem">
+          <Link className="menuList__listItem--link" to="/form">
+            contact
+          </Link>
+        </li>
       </ul>
     </nav>
   );

@@ -1,0 +1,15 @@
+.backButton {
+  margin-top: 20px;
+  &__button {
+    background-color: $orange;
+    border: none;
+    border-radius: 15%;
+    height: 40px;
+    width: 40px;
+    &--link {
+      color: $white;
+      font-size: 20px;
+      position: relative;
+    }
+  }
+}

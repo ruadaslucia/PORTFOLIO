@@ -5,30 +5,30 @@
   list-style: none;
   padding-inline-start: 0px;
   &__listItem {
-    margin: 10px;
+    margin: 8px;
     text-decoration: none;
 
     &--link {
       text-decoration: none;
-      color: $grey;
+      color: $white;
     }
     &--link:hover {
       color: $white;
     }
   }
 }
+.returnText {
+  text-align: center;
+  font-family: $roboto;
+  font-weight: bolder;
+  margin-top: 50px;
+  color: $easySnorlax;
+  text-transform: uppercase;
+}
 
 @media all and (min-width: 768px) {
   .menuList {
     font-size: 20px;
-    &__listItem {
-      margin: 20px;
-    }
-  }
-}
-@media all and (min-width: 1200px) {
-  .menuList {
-    font-size: 25px;
     &__listItem {
       margin: 20px;
     }
